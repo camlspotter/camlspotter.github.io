@@ -9,18 +9,17 @@
       <input type="text" name="q"/>
     </form>
 
-    Search target packages are configurable:
+    <h2> Search target packages are configurable</h2>
     <ul>
       <li>"Vanilla and": Only the default packages installed by OCaml compiler except ocamldoc and compiiler-libs, and specified packages listed in the form
       <li>"All but": All the packages in the db, minus the package names specified in the form
       <li>"Just": Only the packages listed in the form
     </ul>
     
-    Current status:
-    <ul>
-      <li>109 ocamlfind packages, 220036 sigitems with 128880 unique types
-      <li>3rd party data files can be imported with type safety
-      <li>Module alias analysis to group things derived from the same definition.
-    </ul>
+    <h2>Search results are grouped by aliases</h2>
+    Each search result gruop starts with a main item which are followed by its aliases.  The aliases are copis of the main result via module aliases/inclusions/functor applications.
+    
+    <h2>Current status</h2>
+    109 ocamlfind packages, 220036 sigitems with 128880 unique types
   </body>
 </html>
