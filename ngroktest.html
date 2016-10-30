@@ -8,22 +8,23 @@
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="https://5822cdcc.ngrok.io/ngrok.js"></script>
   </head>
-    <body>
-      <div class="query">
-	<span class="logo">OC👁</span>
-	<form id="form">
-	  Query: <input type="text" name="q" value=""/>
-	  <input type="submit"/>
-	  <br/>
-	  Packages:
-	  <select name="packtype">
-	    <option value="vanilla" selected="selected">Vanilla and</option>
-	    <option value="allbut">All but</option>
-	    <option value="just">Just</option>
-	  </select>
-	  <input type="text" name="packs" value=""/>
-	</form>
-      </div>
+  <body>
+    <div class="query">
+      <span class="logo">OC👁</span>
+      <form id="form">
+	Query: <input id="q" type="text" name="q" value=""/>
+	<input type="submit"/>
+	<br/>
+	Packages:
+	<select id="packtype" name="packtype">
+	  <option value="vanilla" selected="selected">Vanilla and</option>
+	  <option value="allbut">All but</option>
+	  <option value="just">Just</option>
+	</select>
+	<input id="packs" type="text" name="packs" value=""/>
+      </form>
+    </div>
+
     <div id="insert"/>
   </body>
 </html>
