@@ -1,28 +1,30 @@
-<html>
-  <header>
-   <title>"OCamlOScope.2 server"</title>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+          "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>OCamlOScope.2 server</title>
     <meta charset="UTF-8">
-  </header>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://5822cdcc.ngrok.io/ngrok.js"></script>
+  </head>
   <body>
-    OC&#x1f441;
-    <form action="http://5822cdcc.ngrok.io/" method="get">
-      <input type="text" name="q"/>
-    </form>
+    <div class="query">
+      <span class="logo">OC👁</span>
+      <form id="form">
+	Query: <input id="q" type="text" name="q" value=""/>
+	<input type="submit"/>
+	<br/>
+	Packages:
+	<select id="packtype" name="packtype">
+	  <option value="vanilla" selected="selected">Vanilla and</option>
+	  <option value="allbut">All but</option>
+	  <option value="just">Just</option>
+	</select>
+	<input id="packs" type="text" name="packs" value=""/>
+      </form>
+    </div>
 
-    <h2> Search target packages are configurable</h2>
-    <ul>
-      <li>"Vanilla and": Only the default packages installed by OCaml compiler except ocamldoc and compiiler-libs, and specified packages listed in the form
-      <li>"All but": All the packages in the db, minus the package names specified in the form
-      <li>"Just": Only the packages listed in the form
-    </ul>
-    
-    <h2>Search results are grouped by aliases</h2>
-    Each search result group starts with a main item which are followed by its aliases.  The aliases are copis of the main result via module aliases/inclusions/functor applications.
-    
-    <h2>Current status</h2>
-    109 ocamlfind packages, 220036 sigitems with 128880 unique types
-    
-    <h2>Version 1 is dicontinued</h2>
-    ocamloscope.heorkuapp.com is shut down.  Heroku is not really OCaml friendly...
+    <div id="insert"/>
   </body>
 </html>
