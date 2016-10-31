@@ -1,5 +1,5 @@
 body {
-    font-size: 100%; /* required for Android Chrome */
+    max-height: 999999px;  /* required for Android Chrome */
     font-family: Arial,Helvetica,Sans-Serif;
 }
 
