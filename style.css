@@ -1,5 +1,8 @@
+body * {
+  max-height: 1000000em; /* required for Android Chrome */
+}
+
 body {
-    max-height: 999999px;  /* required for Android Chrome */
     font-family: Arial,Helvetica,Sans-Serif;
 }
 
@@ -59,16 +62,21 @@ div.item {
     padding-bottom: 5px;
 }
 
+div.docstring {
+    font-size: 85%;
+    color:#442222;
+}
+
 span.kind {
-    color:#880000;
+    color:#440000;
 }
 
 span.path {
-    color:#666600;
+    color:#444400;
 }
 
 span.type {
     padding-left: 1ex;
-    color:#008800;
+    color:#004400;
     display: inline-block;
 }
