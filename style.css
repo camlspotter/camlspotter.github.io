@@ -63,8 +63,9 @@ div.item {
 }
 
 div.docstring {
+    padding-top: 2px;
     font-size: 85%;
-    color:#442222;
+    color:#884444;
 }
 
 span.kind {
