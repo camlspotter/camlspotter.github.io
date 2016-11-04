@@ -35,14 +35,14 @@ select#packtype {
 
 div.group0 {
     background: #e8e8e8;
-    padding: 3px;
+    padding: 6px 3px 6px 3px;
     border-style: solid none none none;
     border-width: 1px 0px 0px 0px;
 }
 
 div.group1 {
     background: #f4f4f4;
-    padding: 3px;
+    padding: 6px 3px 6px 3px;
     border-style: solid none none none;
     border-width: 1px 0px 0px 0px;
 }
