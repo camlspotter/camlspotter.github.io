@@ -34,9 +34,9 @@ select#packtype {
 }
 
 div.warning {
-  padding-bottom 5px;
+  padding-bottom: 5px;
   font-size: 80%;
-  color: #888800;
+  color: #aaaa00;
 }
 
 div.group0 {
