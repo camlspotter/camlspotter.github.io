@@ -36,7 +36,7 @@ select#packtype {
 div.warning {
   padding-bottom: 5px;
   font-size: 80%;
-  color: #aaaa00;
+  color: #884400;
 }
 
 div.group0 {
@@ -75,19 +75,19 @@ div.item {
 div.docstring {
     padding-top: 2px;
     font-size: 85%;
-    color:#aa8888;
+    color:#555555;
 }
 
 span.kind {
-    color:#440000;
+    color:#550000;
 }
 
 span.path {
-    color:#444400;
+    color:#555500;
 }
 
 span.type {
     padding-left: 1ex;
-    color:#004400;
+    color:#005500;
     display: inline-block;
 }
