@@ -33,6 +33,18 @@ select#packtype {
     font-size: 110%;
 }
 
+div.time {
+    padding-bottom: 5px;
+    font-size: 75%;
+    color: #888888;
+}
+
+div.warning {
+  padding-bottom: 5px;
+  font-size: 80%;
+  color: #884400;
+}
+
 div.group0 {
     background: #e8e8e8;
     padding: 3px;
