@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>test</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Optz: Michelson optimizer</h1>
+    <div style="display: flex">
+      <div style="width:48%">
+	Input
+	<textarea id="input" class="michelson" style="width:95%; height: 60vh;" spellcheck="false"></textarea>
+	<div id="div">
+	  <input type="checkbox" id="checkbox-indentation" checked>Check indentation
+	</div>
+      </div>
+      <div style="width:48%">
+	Output
+	<textarea id="output" style="width:95%; height: 60vh;" readonly spellcheck="false"></textarea><br/>
+	Log<br>
+	<textarea id="log" style="width:95%; height: 20vh;" readonly spellcheck="false">Loading JavaScript module...  Please be patient.
+</textarea>
+      </div>
+    </div>
+  </body>
+  <script src="./optz.bc.js"></script>
+</html>
